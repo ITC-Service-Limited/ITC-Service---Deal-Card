@@ -1,0 +1,13 @@
+{
+  "uid": "itc-deal-links-card",
+  "type": "card",
+  "config": {
+    "name": "ITC deal actions",
+    "description": "Open the Sell quote or ConnectWise opportunity stored on the current deal.",
+    "location": "crm.record.tab",
+    "entrypoint": "/app/cards/DealLinksCard.jsx",
+    "objectTypes": [
+      "deals"
+    ]
+  }
+}

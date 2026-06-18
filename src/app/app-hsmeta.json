@@ -1,0 +1,23 @@
+{
+  "uid": "itc-deal-actions-app",
+  "type": "app",
+  "config": {
+    "name": "ITC Deal Actions",
+    "description": "Deal record app card that opens action links stored in HubSpot deal properties.",
+    "distribution": "private",
+    "auth": {
+      "type": "static",
+      "requiredScopes": [
+        "oauth",
+        "crm.objects.deals.read"
+      ],
+      "optionalScopes": [],
+      "conditionallyRequiredScopes": []
+    },
+    "permittedUrls": {
+      "fetch": [],
+      "iframe": [],
+      "img": []
+    }
+  }
+}

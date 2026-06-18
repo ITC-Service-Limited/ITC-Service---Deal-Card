@@ -1,0 +1,7 @@
+node_modules/
+dist/
+package-lock.json
+hubspot.config.yml
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
